@@ -13,5 +13,6 @@ class Organization extends AbstractContext
         'name' => null,
         'address' => PostalAddress::class,
         'logo' => ImageObject::class,
+        'url' => ''
     ];
 }
